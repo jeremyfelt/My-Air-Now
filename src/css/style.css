@@ -21,11 +21,11 @@ body {
 }
 
 .my-aqi {
-    font-size: 9em;
+    font-size: 13em;
 }
 
 .my-category {
-    font-size: 4em;
+    font-size: 4.5em;
 }
 
 .my-time {
@@ -37,3 +37,9 @@ h1 {
     font-size: 2.5em
 }
 
+@media (max-width: 640px ) {
+
+    .container {
+        max-width: 90%;
+    }
+}
